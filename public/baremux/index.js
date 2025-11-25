@@ -3,7 +3,7 @@
   const workerUrl = "https://cdn.jsdelivr.net/npm/@mercuryworkshop/bare-mux/dist/worker.js";
 
   // Hard-wired Wisp server (your Render service)
-  const wisp = "wss://wisp-server-node-w2xs.onrender.com/";
+  const wisp = "wss://wisp-server-node-w2xs.onrender.com/wisp/";
 
   // Prefer WISP; Epoxy is just a fallback path on the same host (can 404, that's fine)
   const clients = [
